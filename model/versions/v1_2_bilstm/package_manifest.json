@@ -1,0 +1,26 @@
+{
+  "schema": "data-clip.package.v1",
+  "created_at": "2026-10-09T00:00:00+00:00",
+  "model": {
+    "name": "v1.2 BiLSTM gesture cutter (Washing 2026-09-23 supplement)",
+    "checkpoint": "model/best.pt",
+    "checkpoint_sha256": "0fc485c185a3ae0a9dc84b747cd4cd14be713b310b1c735de933747096885f12"
+  },
+  "policy": {
+    "threshold": 0.05,
+    "merge_gap": 6,
+    "boundary_policy": "peak"
+  },
+  "files": {
+    "README.md": "6cd3051240789b9ec999508dda7f456f36dc7d44db52109468e928434d1baee7",
+    "core.py": "bfcff338ea9abefd6e63bd756e6cae350404e58895284b5f4941a8604893c5d8",
+    "data.py": "650e218332f959626a9e9aaef2b3a59b4564657e1825bb443a7e846ac937f0d2",
+    "data_clip": "87550c56ec4ed28e1e6b11019fa83a3cc7efdff530890e683c82fdd3c9547efe",
+    "learning.py": "59bbe8cc4a18017423eb2aa7104e615087ded05bc68af73decc196a100c759f7",
+    "model/assets/hand_landmarker.task": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "model/best.pt": "0fc485c185a3ae0a9dc84b747cd4cd14be713b310b1c735de933747096885f12",
+    "model/frozen_inference.json": "60ebf6a9a53dc385d3f472aa864b10460866b0e4e1dd7b444d585274cd74260d",
+    "requirements.inference.txt": "f8aacad50e4af7b5ab02c4311e45fd082c990041ab5dd6ee73a787df11234350",
+    "run_inference.py": "9b9acdbab9716ee9257a766f2395b4d318de3dd10dfcefbe0609bebb2096149a"
+  }
+}

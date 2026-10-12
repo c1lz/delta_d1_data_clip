@@ -1,0 +1,26 @@
+{
+  "schema": "data-clip.package.v1",
+  "created_at": "2026-10-10T00:00:00+00:00",
+  "model": {
+    "name": "v1.3 BiLSTM gesture cutter (Cabinet 2026-10-08 supplement)",
+    "checkpoint": "model/best.pt",
+    "checkpoint_sha256": "66d0f2d2554e320c6e9d1484a674ca786dfed9521323149dd4edf1b65f8001f4"
+  },
+  "policy": {
+    "threshold": 0.05,
+    "merge_gap": 6,
+    "boundary_policy": "peak"
+  },
+  "files": {
+    "README.md": "1dc14f6b5dd0f469e8de103ddf420043347d8f99d053406611db4f35752580e9",
+    "core.py": "bfcff338ea9abefd6e63bd756e6cae350404e58895284b5f4941a8604893c5d8",
+    "data.py": "650e218332f959626a9e9aaef2b3a59b4564657e1825bb443a7e846ac937f0d2",
+    "data_clip": "87550c56ec4ed28e1e6b11019fa83a3cc7efdff530890e683c82fdd3c9547efe",
+    "learning.py": "59bbe8cc4a18017423eb2aa7104e615087ded05bc68af73decc196a100c759f7",
+    "model/assets/hand_landmarker.task": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "model/best.pt": "66d0f2d2554e320c6e9d1484a674ca786dfed9521323149dd4edf1b65f8001f4",
+    "model/frozen_inference.json": "7cf320ff0735b7ed55e8372664fd03d6e6902757055854ddea5b7f329294ab66",
+    "requirements.inference.txt": "f8aacad50e4af7b5ab02c4311e45fd082c990041ab5dd6ee73a787df11234350",
+    "run_inference.py": "e6a9e232d77c37a248834c6a33b6395b3f2b02baa1f750c9b70d422a31c8fa9c"
+  }
+}

@@ -1,0 +1,2 @@
+# Desktop interface only; install requirements.inference.txt alongside this file.
+PySide6==6.8.1

@@ -1,0 +1,28 @@
+{
+  "schema": "data-clip.frozen-inference.v1",
+  "architecture": "bilstm",
+  "checkpoint": "best.pt",
+  "checkpoint_sha256": "0fc485c185a3ae0a9dc84b747cd4cd14be713b310b1c735de933747096885f12",
+  "model_asset_sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+  "threshold": 0.05,
+  "merge_gap": 6,
+  "boundary_policy": "peak",
+  "event_policies": null,
+  "event_search_fractions": null,
+  "source_experiment": "v1_2_washing_0923",
+  "model_version": "v1.2",
+  "training_checkpoint_parent_sha256": "f6a1090ff8434c04849e1bc8bd6567b92cd806c6419bd2418ada78a90336aefb",
+  "training_data": "v1.1 replay data plus manually transcribed 2026-09-23 Washing GT",
+  "selection": {
+    "threshold": 0.05,
+    "merge_gap": 6,
+    "validation_target_recall_met": false
+  },
+  "desktop_runtime_defaults": {
+    "threshold": 0.8,
+    "merge_gap": 6,
+    "minimum_cut_gap_seconds": 4.0,
+    "edge_window_seconds": 2.0,
+    "reason": "The desktop uses its existing operator-approved per-job defaults; these do not alter the packaged experiment selection policy."
+  }
+}

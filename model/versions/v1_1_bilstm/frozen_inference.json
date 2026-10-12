@@ -1,0 +1,21 @@
+{
+  "schema": "data-clip.frozen-inference.v1",
+  "architecture": "bilstm",
+  "checkpoint": "best.pt",
+  "checkpoint_sha256": "f6a1090ff8434c04849e1bc8bd6567b92cd806c6419bd2418ada78a90336aefb",
+  "model_asset_sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+  "threshold": 0.8,
+  "merge_gap": 6,
+  "boundary_policy": "peak",
+  "event_policies": null,
+  "event_search_fractions": null,
+  "source_experiment": "v1_1_bilstm_supplement",
+  "manual_inference_override": {
+    "field": "threshold",
+    "previous_value": 0.05,
+    "new_value": 0.8,
+    "requested_at": "2026-09-20T10:35:14.327213+00:00",
+    "reason": "user-directed frozen inference threshold update",
+    "validation_policy_backup": "selection.validation_selected_threshold005.json"
+  }
+}

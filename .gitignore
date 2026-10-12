@@ -1,0 +1,7 @@
+video_clip/
+.runtime/
+__pycache__/
+*.py[cod]
+model/releases/
+segment_data/
+api_result.zip
